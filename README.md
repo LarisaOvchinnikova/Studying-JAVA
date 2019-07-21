@@ -3,3 +3,4 @@
 1. Creating class Person
 1. creating methods getName(), setName()
 1. in Main() created instances of class Person
+--
