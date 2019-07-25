@@ -1,5 +1,5 @@
 ### Studying Java
-7-17-2019 in class
+7-17-2019 
 1. Creating class Person
 1. Creating methods getName(), setName()
 1. In Main() created instances of class Person
@@ -84,6 +84,21 @@ public class Main {
   }
 }
 ```
+* [x] Count elements in array
+```java
+public class Main {
+  public static void main(String[] args) {
+    int [][] arr = {{1,2,3,4},{5,6,7},{8},{9, 10}};
+    int k = 0;
+    for (int i = 0; i < arr.length; i++){
+      k += arr[i].length;
+    }
+     System.out.println(k);
+  }
+}
+```
+
+
 
 
 
