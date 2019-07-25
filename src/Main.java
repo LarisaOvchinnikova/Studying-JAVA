@@ -1,19 +1,12 @@
 public class Main {
-
-    public static void main(String[] args) {
-
-      int n = 10;
-      int f0 = 0;
-      int f1 = 1;
-      System.out.println(f0);
-      System.out.println(f1);
-      int f2;
-      for (int i = 2; i <= n; i++) {
-        f2 = f0 + f1;
-        System.out.println(f2);
-        f0 = f1;
-        f1 = f2;
-      }
+  public static void main(String[] args) {
+    int []arr = {1,2,3,4,5,6,7,8,9, 1};
+    double av = 0;
+    for (int i = 0; i < arr.length; i++){
+      av += arr[i];
     }
+    av = av / arr.length;
+    System.out.println(av);
+  }
 }
 
