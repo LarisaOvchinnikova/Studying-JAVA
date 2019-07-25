@@ -6,9 +6,7 @@
 
 ```java
 public class Main {
-
     public static void main(String[] args) {
-
       Person p1 = new Person();
       p1.name = "Anna";
       p1.age = 32;
@@ -31,10 +29,30 @@ public class Main {
       System.out.println(p1.getName());
     }
 }
-
+public class Person {
+    String name;
+    int age;
+    String sex;
+/*
+   Person(String name, int age, String sex){
+      this.name = name;
+      this.age = age;
+      this.sex = sex;
+   }
+*/
+   String getName(){
+        if (this.sex.equals("m")){
+            return "Mr." + this.name;
+        } else {
+            return "Ms." + this.name;
+        }
+    }
+    public void setName(String name){
+        this.name = name;
+    }
+ }
 ~~~
----
-7-21-2019 Homework
+
 
 
 
