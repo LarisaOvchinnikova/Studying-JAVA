@@ -115,7 +115,25 @@ public class Main {
 }
 ```
 
-
-
+* [x] getter GetSide() and a setter SetSide(int num)
+> Create a public class called Cube without a constructor which gets one single private Integer variable Side, a getter GetSide() and a setter SetSide(int num) method for this property. Actually, getter and setter methods are not the common way to write this code in C#. In the next kata of this series, we gonna refactor the code and make it a bit more professional... Note: There's no need to check for negative values!
+```java
+public class Cube {
+   int Side;
+    int getSide(){
+       return Side;
+    }
+    public void setSide(int Side){
+        this.Side = Side;
+    }
+}
+public class Main {
+  public static void main(String... args) {
+    Cube c = new Cube();
+    c.setSide(5);
+    System.out.println(c.getSide());
+  }
+}
+```
 
 

@@ -1,7 +1,8 @@
 public class Person {
     String name;
     int age;
-    String sex;
+    int sex;
+    Pet pet;
 /*
    Person(String name, int age, String sex){
       this.name = name;
@@ -10,11 +11,19 @@ public class Person {
    }
 */
    String getName(){
-        if (this.sex.equals("m")){
-            return "Mr." + this.name;
+        if (sex == 1){
+            return "Mr." + name;
         } else {
-            return "Ms." + this.name;
+            return "Ms." + name;
         }
+    }
+
+    boolean IsAdult(){
+       return age >=21;
+    }
+
+    String getPetName(){
+       return pet.name;
     }
 
     public void setName(String name){
