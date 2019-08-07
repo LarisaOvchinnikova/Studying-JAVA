@@ -1,8 +1,4 @@
 ### Studying Java
-7-17-2019 
-1. Creating class Person
-1. Creating methods getName(), setName()
-1. In Main() created instances of class Person
 ```java
 public class Main {
     public static void main(String[] args) {
