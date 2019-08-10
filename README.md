@@ -131,5 +131,22 @@ public class Main {
   }
 }
 ```
+* [x] Palindrome 
+> Print sentence in reverse order
+```java
+public class StringManipulation
+{
+	public static void main(String[] args)
+	{
+		String sentence = "I like learning Java";
+		String palindrome = "";
+		for (int i = sentence.length()-1; i >= 0; i--)
+		{
+			palindrome = palindrome + sentence.charAt(i);
+		}
+		System.out.println(palindrome);
+	}
+}
+```
 
 
