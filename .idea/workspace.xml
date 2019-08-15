@@ -208,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565192027382</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="added solved task in readme file">
+      <created>1565473031857</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1565473031857</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,6 +243,7 @@
     <MESSAGE value="added text" />
     <MESSAGE value="added object" />
     <MESSAGE value="edit readme file" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit readme file" />
+    <MESSAGE value="added solved task in readme file" />
+    <option name="LAST_COMMIT_MESSAGE" value="added solved task in readme file" />
   </component>
 </project>
