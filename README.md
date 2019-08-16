@@ -183,5 +183,23 @@ public class StringMethods
 	}
 }
 ```
-
+* [x] StringBuilder
+```java
+public class MyStringBuilder
+{
+	public static void main(String[] args)
+	{
+		String str = "I love Florida";
+		StringBuilder str1 = new StringBuilder(str);
+		str1.reverse();
+		System.out.println(str1);
+		System.out.println("---------");
+		System.out.println(str);
+		StringBuilder str2 = new StringBuilder(str.toLowerCase());
+		System.out.println(str2);
+		StringBuilder str3 = new StringBuilder(str.toUpperCase());
+		System.out.println(str3);
+	}
+}
+```
 
