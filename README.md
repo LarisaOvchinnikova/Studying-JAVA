@@ -202,4 +202,22 @@ public class MyStringBuilder
 	}
 }
 ```
+* [x] Example of using For...Each loop:
+```java
+public class LoopForEach
+{
+	public static void main(String[] args)
+	{
+		String[] family = {"mama", "papa", "son"};
+		System.out.println("------------1 case-------------------");
+		for (int i = 0; i<family.length; i++) {
+			System.out.println(family[i]);
+		}
+		System.out.println("------------2 case-------------------");
+		for (String member: family)
+			System.out.println(member);
+	}
+}
+```
+
 
