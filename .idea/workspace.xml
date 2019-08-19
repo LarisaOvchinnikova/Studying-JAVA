@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b181e7e5-269c-4876-90aa-f89a80758421" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b181e7e5-269c-4876-90aa-f89a80758421" name="Default Changelist" comment="added working with files in readme file">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -237,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566000547622</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="added working with files in readme file">
+      <created>1566254624504</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1566254624504</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,6 +272,7 @@
     <MESSAGE value="added object" />
     <MESSAGE value="edit readme file" />
     <MESSAGE value="added solved task in readme file" />
-    <option name="LAST_COMMIT_MESSAGE" value="added solved task in readme file" />
+    <MESSAGE value="added working with files in readme file" />
+    <option name="LAST_COMMIT_MESSAGE" value="added working with files in readme file" />
   </component>
 </project>

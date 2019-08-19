@@ -221,11 +221,13 @@ public class LoopForEach
 ```
 
 * [x] Working with files (read from file and write ino file)
-> readFile.txt :
-> This is the first line
-> This is the second line
-> This is the third line
----
+1. Create readFile.txt :
+```
+ This is the first line
+ This is the second line
+ This is the third line
+```
+ Create new java class:
 ```java
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -250,6 +252,39 @@ public class ReadWriteFiles
 	printFile.println("My second string");
 	printFile.println("My third string");
 	printFile.close();
+	}
+}
+```
+* [x] Working with reading config file
+1. Create text file data.config:
+```
+browser = Chrome
+OS = Windows 10
+name = Larisa
+data = 08/19/2019
+```
+Create new java class
+```java
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
+
+public class ReadCongigFile
+{
+	public static void main(String[] args) throws IOException
+	{
+		Properties prop = new Properties();
+		prop.load(new FileInputStream("data.config"));
+		String browser = prop.getProperty("browser");
+		String os = prop.getProperty("OS");
+		String name = prop.getProperty("name");
+		String data = prop.getProperty("data");
+		
+		System.out.println("Browser: " + browser
+				+ "\nOS:" + os);
+		System.out.println("Name: " + name);
+		System.out.println("Data: " + data);
 	}
 }
 ```
